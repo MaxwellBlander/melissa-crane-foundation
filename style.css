@@ -11,7 +11,7 @@
 }
 
 .header {
-    padding-left: 100px;
+    padding-left: 200px;
     padding-right: 100px;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -97,22 +97,21 @@ button {
     color: #E5E7EB;
 }
 .container {
-    margin-left: 100px;
-    margin-right: 100px;
     margin-bottom: 33px;
     display: flex;
-    justify-content: space-between+safe;
+    justify-content: center;
     gap: 33px;
    
 }
 .infoheader {
+    display: flex;
+    justify-content: center;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 36px;
     color: #1F2937
     font-weight: 900;
-    display: flex;
-    justify-content: center;
+
   
 }
 
@@ -125,14 +124,15 @@ button {
     text-align: center;
 }
 .quote {
+    display: flex;
+    justify-content: center;
     padding: 100px;
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: light italic;
     color: #1F2937
-    display: flex;
-    justify-content: center;
 }
+
 .callcontainercolumn {
     margin: 33px;
     padding: 33px;
@@ -149,8 +149,6 @@ button {
     background-color: #3882F6;
     display: flex;
     justify-content: space-evenly;
-    
-  
 }
 
 .calltxt {
